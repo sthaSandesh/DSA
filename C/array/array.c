@@ -9,7 +9,7 @@ void traversal(int arr[], int size) {
 }
 
 void insert(int arr[], int size, int index, int element) {
-   printf("-------------------Insert Operation------------------- \n") ;
+   printf("-------------------Insert Operation------------------- \n");
 
    for (int i = size - 1; i >= index; i--) {
       arr[i + 1] = arr[i] ;
